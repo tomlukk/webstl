@@ -21,7 +21,7 @@ camera.position.z = 10;
 // Load the STL file
 const loader = new THREE.STLLoader();
 loader.load(
-  'path/to/your/model.stl', // Replace with your STL file path
+  'models/3DBenchy.stl', // Replace with your STL file path
   function (geometry) {
     const material = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
     const mesh = new THREE.Mesh(geometry, material);
